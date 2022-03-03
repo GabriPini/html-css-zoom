@@ -12,7 +12,8 @@
     --header-bg: rgba(34, 34, 34, 1);
     --ext-text: rgba(211, 29, 7, 1);
     --text: rgba(255, 255, 255, 1);
-    --seondbg: rgb(41, 41, 41);
+    --seondbg: rgb(56, 56, 56);
+    --succes:rgb(75, 200, 0);
 
 }
 
@@ -35,7 +36,7 @@
     justify-content: space-between;
     align-items: center;
     color: var(--text);
-    padding: 0 0.5rem;
+  
  
   
     
@@ -87,7 +88,7 @@
 
 .box{
     height: 800px;
-    width: 1440;
+    width: 1440px;
     margin: 0 auto;
     height: 100%;
     flex-wrap: wrap;
@@ -97,3 +98,72 @@
     align-content: center;
     
 }
+/* end user  */
+
+/*#region command tab */
+
+
+
+.Main-command i{
+color: var(--text);
+}
+
+.left-menu{
+    column-gap: 5px;
+    align-items: center;
+}
+
+
+
+
+/* navbar */
+
+.arrow{
+    align-self: center;
+}
+.commands a{
+display: flex;
+flex-direction: column;
+text-align: center;
+text-decoration: none;
+color: var(--text);
+row-gap: 0.5rem;
+
+}
+
+.commands ul{
+list-style: none;
+display: flex;
+ column-gap: 1rem;
+
+ 
+}
+
+.commands a>i{
+font-size: 1.5rem;
+
+}
+
+.commands a.active{
+color: var(--succes);
+}
+
+/* account */
+
+.account{
+background-color: var(--seondbg);
+height: 60px;
+width: 100px;
+line-height: 60px;
+
+}
+
+.account a{
+    color: var(--ext-text);
+}
+
+
+
+
+
+/* #endregion command tab */
