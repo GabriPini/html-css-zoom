@@ -1,6 +1,99 @@
+/*#reegion common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+}
+
+:root{
+    --bg: rgba(0, 0, 0, 1);
+    --header-bg: rgba(34, 34, 34, 1);
+    --ext-text: rgba(211, 29, 7, 1);
+    --text: rgba(255, 255, 255, 1);
+    --seondbg: rgb(41, 41, 41);
+
+}
+
+
+.main{
+    padding-top: 20px;
+    height: calc(100vh - 60px);
+    position: relative;
+    color: var(--text);
+    background-color: var(--bg);
+
+  
+  
+}
+    
+.commands{
+    background-color: var(--header-bg);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text);
+    padding: 0 0.5rem;
+ 
+  
+    
+}
+/* #endregion common*/
+
+/* #region utility */
+
+.flex {
+    display: flex;
+}
+
+/* #endregion utility */
+.settings-top {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+   
+}
+
+.left-top{
+    background-color: var(--seondbg); 
+    display: inline-block;
+    border-radius: 8px;
+   
+}
+.settings-top i{
+    background-color: var(--seondbg);
+    padding: 8px;
+    border-radius: 5px; 
+    
+    
+}
+/* users */
+.card{
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+
+.name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 5px;
+}
+
+.box{
+    height: 800px;
+    width: 1440;
+    margin: 0 auto;
+    height: 100%;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 4px;
+    justify-content: center;
+    align-content: center;
+    
 }
