@@ -75,9 +75,6 @@
 /* users */
 .card{
     position: relative;
-    flex-wrap: wrap;
-    width: auto;
-    
 }
 
 .name{
