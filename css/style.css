@@ -24,6 +24,7 @@
     position: relative;
     color: var(--text);
     background-color: var(--bg);
+    overflow-y: auto;
 
   
   
@@ -75,6 +76,7 @@
 .card{
     position: relative;
     flex-wrap: wrap;
+    width: auto;
     
 }
 
@@ -87,15 +89,16 @@
 }
 
 .box{
-    height: 800px;
-    width: 1440px;
-    margin: 0 auto;
     height: 100%;
+    width: 80%;
+    max-width: 1285px;
+    margin: auto;
     flex-wrap: wrap;
     row-gap: 1rem;
     column-gap: 4px;
     justify-content: center;
     align-content: center;
+  
     
 }
 /* end user  */
